@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(203, 167, 131);
+    font-family: sans-serif;
+    margin: 0;
+    border: 5px solid #5c5c5c;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(27, 130, 54);
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+main{
+    text-align: center;
+}
+
+.color{
+    color: rgb(105, 74, 47);
+}
+
+.texto{
+    color: brown;
+}
+.sala{
+    color: gray;
+}
+
+.nombre{
+    color: brown;
+}
+
+.container-boton{
+    background-color: darkolivegreen;
+    border: 1px solid floralwhite;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 50px;
+    transition: ease 2s;
+}
+
+
+
+.abejaflor{
+    display: flex;
+    text-align: center;
+    padding: auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    height: 15vh;
+}
+
+
+
+
+
